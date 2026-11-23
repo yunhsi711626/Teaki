@@ -1,0 +1,10 @@
+# Local Python / tooling artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+# Do not commit credentials or local environment files
+.env
+.env.*
+!.env.example
